@@ -1,0 +1,9 @@
+{
+  "name": "santec-1972",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "npx --yes tailwindcss@3 -c tailwind.config.js -i assets/tailwind.input.css -o assets/styles.css --minify",
+    "watch:css": "npx --yes tailwindcss@3 -c tailwind.config.js -i assets/tailwind.input.css -o assets/styles.css --watch"
+  }
+}
